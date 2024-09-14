@@ -42,7 +42,7 @@ def score_game(random_predict) -> int:
         
     score = int(np.mean(count_ls)) # mean of attempts
     
-    print(f'Your algorithm guess mean for: {score} attempts ')
+    print(f'Your algorithm guess mean for: {score} attempts')
     return score
 
 if __name__ == '__main__':
